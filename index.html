@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Marksheet calculator</title>
+	<script type="text/javascript" src="script2.js"></script>
+	<style type="text/css">
+		#table1{
+			text-align: center;
+			background-color: lightgrey;
+			width: 50%;
+			height: 150px;
+		}
+		#head{
+			font-size: 25px
+		}
+	</style>
+</head>
+<body>
+	<table id="table1">
+		<tr>
+			<td colspan="2"><h1 id="head"><t><t>MarkSheet Calculator</h1></td>
+		</tr>
+		<tr>
+			<td>Full Name: <input type="text" id="name"></td>
+			<td>Roll Number: <input type="text" id="rollNo"></td>
+		</tr>
+		<tr>
+			<td>Subject 1: <input type="text" id="sub1"></td>
+			<td>Marks: <input type="number" name="mark1"></td>
+		</tr>
+		<tr>
+			<td>Subject 2: <input type="text" id="sub2"></td>
+			<td>Marks: <input type="number" name="mark2"></td>
+		</tr>
+		<tr>
+			<td>Subject 3: <input type="text" id="sub3"></td>
+			<td>Marks: <input type="number" name="mark3"></td>
+		</tr>
+		<tr>
+			<td>Subject 4: <input type="text" id="sub4"></td>
+			<td>Marks: <input type="number" name="mark4"></td>
+		</tr>
+		<tr>
+			<td>Subject 5: <input type="text" id="sub5"></td>
+			<td>Marks: <input type="number" name="mark5"></td>
+		</tr>
+		<tr>
+			<td colspan="2"><button onclick="">Generate Marksheet</button></td>
+		</tr>
+
+		<tr>
+			<td>----------------------------------------------------</td>
+		</tr>
+	</table>
+	<table border="1">
+		<tr>
+			<td id="stdName"></td>
+		</tr>
+		<tr>
+			<td id="rollNum"></td>
+		</tr>
+	</table>
+</body>
+</html>
